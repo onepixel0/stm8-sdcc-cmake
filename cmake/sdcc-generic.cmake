@@ -1,7 +1,8 @@
 set(CMAKE_SYSTEM_NAME Generic)
-set(CMAKE_C_COMPILER c:/sdcc/bin/sdcc.exe)
-set(CMAKE_OBJCOPY c:/sdcc/bin/sdobjcopy.exe CACHE INTERNAL "objcopy tool")
-set(CMAKE_PACKIHX c:/sdcc/bin/packihx.exe CACHE INTERNAL "packihx tool")
+
+set(CMAKE_C_COMPILER sdcc)
+set(CMAKE_OBJCOPY sdobjcopy CACHE INTERNAL "objcopy tool")
+set(CMAKE_PACKIHX packihx CACHE INTERNAL "packihx tool")
 
 set(CMAKE_STATIC_LIBRARY_PREFIX "")
 set(CMAKE_STATIC_LIBRARY_SUFFIX ".lib")
