@@ -15,16 +15,7 @@ Required software:
 
 * SDCC compiler - `http://sdcc.sourceforge.net/`
 * CMake 2.8 or higher - `https://cmake.org/`
-<!--* STM8 StdPeriph Library (optional)
 
-
-You can found StdPeriph Libraries on `http://www.st.com`
-STM8 StdPeriph Libraries Archives:
-
-* `STM8016`  for STM8L15x/16x/05x
-* `STM8012`  for STM8L10x
-* `STM8069`  for STM8S
--->
 
 ## Usage
 
@@ -33,7 +24,6 @@ For successful build you need to define some variables.
 * `CMAKE_TOOLCHAIN_FILE` - path to sdcc-generic.cmake toolchain file.
 * `CMAKE_MODULE_PATH` - path to cmake files directory.
 * `STM8_CHIP` - STM8 device name in lower or upper case, e.g. stm8l152c6
-<!--* `STM8_StdPeriph_DIR` - path to std_periph directory-->
 
 
 Example for makefiles:
