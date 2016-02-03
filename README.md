@@ -7,9 +7,9 @@ This is project for developing applications for STM8 microcontrollers using SDCC
 Project based on `https://github.com/ObKo/stm32-cmake`
 
 
-There is support of STM8S and STM8L series at now.
+There is support for STM8S and STM8L series at now.
 
-Support of StdPeriph libraries will be added soon.
+Support for StdPeriph libraries will be added soon.
 
 Required software:
 
