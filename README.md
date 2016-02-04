@@ -23,12 +23,10 @@ For successful build you need to define some variables.
 
 * `CMAKE_TOOLCHAIN_FILE` - path to sdcc-generic.cmake toolchain file.
 * `CMAKE_MODULE_PATH` - path to cmake files directory.
-* `STM8_CHIP` - STM8 device name in lower or upper case, e.g. stm8l152c6
-
 
 Example for makefiles:
 	
-	cmake -DCMAKE_TOOLCHAIN_FILE=<path_to_sdcc-generic.cmake> -DCMAKE_MODULE_PATH=<path_to_project_cmake_dir> -DSTM8_CHIP=<stm8_chip_definition> -G"MinGW Makefiles" <path_to_source_dir>
+	cmake -DCMAKE_TOOLCHAIN_FILE=<path_to_sdcc-generic.cmake> -DCMAKE_MODULE_PATH=<path_to_project_cmake_dir> -G"MinGW Makefiles" <path_to_source_dir>
 
 
 It builds sdcc's *.ihx file. If you need you can convert it to *.hex or *.bin file.
