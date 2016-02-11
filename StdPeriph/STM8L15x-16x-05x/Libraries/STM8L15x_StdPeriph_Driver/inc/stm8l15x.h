@@ -149,7 +149,7 @@
    /*!< Used with memory Models for code higher than 64K */
   #define MEMCPY fmemcpy
  #endif /* STM8L15X_MD or STM8L15X_MDP or STM8L05X_MD_VL or STM8AL31_L_MD*/ 
-#elif  _SDCC_
+#elif  defined(_SDCC_)
  #define FAR __far
  #define NEAR __near
  #define TINY __tiny
